@@ -14,15 +14,14 @@ function Navbar() {
     <header
       aria-label="Site Header"
       className={cn(
-        "flex h-[var(--top-nav-bar-height)] items-center border-b-2 border-gray-100 px-3 lg:px-12",
-        isHomePage && "bg-dot",
+        "flex h-[var(--top-nav-bar-height)] items-center border-b-2 border-gray-100 px-3 lg:px-12 sticky top-0 z-40 bg-white",
       )}
     >
       <div className="flex h-10 w-full items-center justify-between">
         <Link href="/">
           <div className="flex items-center justify-center gap-1">
             <Image
-              src={"assets/heart.svg"}
+              src={"logo.svg"}
               width={16}
               height={16}
               alt="logo"
