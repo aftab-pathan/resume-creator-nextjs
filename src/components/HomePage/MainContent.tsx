@@ -14,7 +14,7 @@ function MainContent() {
         <p className="mt-3 text-lg lg:mt-5 lg:text-xl">
           With this powerful ProResume builder
         </p>
-        <Link href="/resume-import" className="btn-primary mt-6 lg:mt-14">
+        <Link href="/resume-builder" className="btn-primary mt-6 lg:mt-14">
           Create Resume
         </Link>
         <p className="ml-6 mt-3 text-sm text-gray-600">No sign up required</p>
