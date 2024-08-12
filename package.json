@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "@react-pdf/renderer": "^3.4.4",
     "@reduxjs/toolkit": "^2.2.7",
     "@tailwindcss/aspect-ratio": "^0.4.2",
