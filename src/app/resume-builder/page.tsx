@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 export default function ResumeBuilder() {
   return (
     <Provider store={store}>
-      <main className="relative h-full w-full overflow-hidden bg-gray-50">
+      <main className="relative h-full w-full overflow-hidden">
         <div className="grid grid-cols-3 md:grid-cols-6">
           <div className="col-span-3">
             <ResumeInputForm />
