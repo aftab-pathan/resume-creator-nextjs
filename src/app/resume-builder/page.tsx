@@ -1,6 +1,7 @@
 "use client";
 
 import { ResumeInputForm } from "@/components/ResumeInputForm";
+import { ResumeOutput } from "@/components/ResumeOutput";
 import { store } from "@/redux/store";
 import { Provider } from "react-redux";
 
@@ -12,7 +13,9 @@ export default function ResumeBuilder() {
           <div className="col-span-3">
             <ResumeInputForm />
           </div>
-          <div className="col-span-3">{/* <Resume /> */}</div>
+          <div className="col-span-3">
+            <ResumeOutput />
+          </div>
         </div>
       </main>
     </Provider>
