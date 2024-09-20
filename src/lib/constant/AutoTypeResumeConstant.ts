@@ -9,18 +9,18 @@ import { deepClone } from "../utils";
 
 export const END_HOME_RESUME: Resume = {
   profile: {
-    name: "Kuluru Vineeth",
+    name: "Aftab Pathan",
     summary:
-      "Software engineer obsessed with building exceptional products that people love",
-    email: "test@gmail.com",
+      "Full-Stack Engineer obsessed with building exceptional products that people love",
+    email: "aftabksb@gmail.com",
     phone: "123-456-7890",
-    location: "HYD,IND",
-    url: "linkedin.com/in/yourusername",
+    location: "PUNE,IND",
+    url: "linkedin.com/in/aftabpathan313",
   },
   workExperiences: [
     {
       company: "ABC Company",
-      jobTitle: "Software Engineer",
+      jobTitle: "Front-End Engineer",
       date: "May 2023 - Present",
       descriptions: [
         "Contributed and Collaborated with cross functional teams to build the scalable product consumned by larger audiences",
